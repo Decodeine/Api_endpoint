@@ -21,5 +21,6 @@ from endpoint import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('endpoint.urls')),
+     path('get_info/', views.get_info, name='get_info'),
      
 ]
