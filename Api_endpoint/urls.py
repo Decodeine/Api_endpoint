@@ -20,7 +20,7 @@ from endpoint import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('endpoint/', include('endpoint.urls')),
+    path('Api_endpoint/', include('Api_endpoint.urls')),
      path('get_info/', views.get_info, name='get_info'),
 
 ]
