@@ -18,10 +18,10 @@ def get_info(request):
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # GitHub file URL
-    github_file_url = "https://github.com/Gbotemi-ojo/hng-task1-backend/blob/main/app.js"
+    github_file_url = "https://github.com/Decodeine/Api_endpoint/blob/master/endpoint/views.py"
 
     # GitHub repo URL
-    github_repo_url = "https://github.com/Gbotemi-ojo/hng-task1-backend"
+    github_repo_url = "https://github.com/Decodeine/Api_endpoint/tree/master/endpoint"
 
     # Create a response dictionary
     response_data = {
