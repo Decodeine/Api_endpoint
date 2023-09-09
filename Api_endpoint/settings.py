@@ -70,7 +70,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'endpoint.wsgi.application'
+WSGI_APPLICATION = 'Api_endpoint.endpoint_config.application'
+
 
 
 # Database
