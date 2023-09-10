@@ -17,10 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from endpoint.views import get_info  
+from endpoint.views import get_info
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_info, name='home'),  
-    path('get_info/', include('endpoint.urls')),  
+    path('', get_info, name='home'),
+    path('api/', include('endpoint.urls')),  # Add the '/api/' route here
 ]
