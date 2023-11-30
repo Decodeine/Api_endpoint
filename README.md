@@ -13,6 +13,7 @@ HTTP Method: GET
 Request Parameters
 slack_name (required): The Slack name for which information is requested.
 track (required): The specified track for which information is requested.
+
 Example
 GET /get_info/?slack_name=johndoe&track=web-development
 
